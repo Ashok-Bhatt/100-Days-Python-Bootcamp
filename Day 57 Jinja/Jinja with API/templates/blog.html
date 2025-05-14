@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+</head>
+<body>
+    {% for blog in blogs: %}
+        {% if blog["id"]==2 %}
+            <h1>Title: {{blog["title"]}}</h1>
+            <h2>Subtitle: {{blog["subtitle"]}}</h2>
+            <p style="padding: 0px 50px">{{blog["body"]}}</p>
+        {% endif %}
+    {% endfor %}
+</body>
+</html>

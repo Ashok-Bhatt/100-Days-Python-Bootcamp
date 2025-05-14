@@ -1,0 +1,7 @@
+1. to get current working directory: pwd
+2. to list all files and folders in current working directory: ls
+3. To change current working directory: cd Desktop
+4. TO create a directory: mkdir newFolder
+5. to remove a file: rm sample.txt
+6. To get one step back: cd ..
+7. To remove a folder: rm -rf Test
